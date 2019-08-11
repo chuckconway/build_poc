@@ -1,0 +1,14 @@
+dotnet package add coverlet.msbuild
+
+// Enable code coverage
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+
+
+//dotnet add package dotnet-reportgenerator-cli --version 4.2.12
+dotnet tool install -g dotnet-reportgenerator-globaltool
+
+reportgenerator "-reports:coverage.cobertura.xml" "-targetdir:reports"
+
+
+dotnet add package Microsoft.CodeAnalysis.Metrics --version 2.9.4
+dotnet msbuild /t:Metrics
