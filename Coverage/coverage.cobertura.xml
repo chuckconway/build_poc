@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1565415694" lines-covered="3" lines-valid="3" branches-covered="0" branches-valid="0">
+  <sources>
+    <source></source>
+  </sources>
+  <packages>
+    <package name="Codes" line-rate="1" branch-rate="1" complexity="1">
+      <classes>
+        <class name="Codes.DoSomething" filename="/Users/chuckconway/Projects/TestCoverage/Codes/DoSomething.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GetMyName" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+                <line number="7" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

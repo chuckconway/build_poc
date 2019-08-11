@@ -1,0 +1,16 @@
+{
+  "Codes.dll": {
+    "/Users/chuckconway/Projects/TestCoverage/Codes/DoSomething.cs": {
+      "Codes.DoSomething": {
+        "System.String Codes.DoSomething::GetMyName()": {
+          "Lines": {
+            "6": 1,
+            "7": 1,
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
